@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --preto: #0d1b2aff;
+    --azul-claro: #1b263bff;
+    --azul: #415a77ff;
+    --metalico: #778da9ff;
+
+--titulo: "Roboto Condensed", sans-serif;
+--texto: "Chewy", system-ui;
+
+}
