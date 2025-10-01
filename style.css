@@ -10,3 +10,7 @@
 --texto: "Chewy", system-ui;
 
 }
+body{
+    background-color: var(--metalico);
+    font-family: var(--texto);
+}
