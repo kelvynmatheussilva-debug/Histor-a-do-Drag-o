@@ -1,16 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Chewy&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
-:root{
+:root {
     --preto: #0d1b2aff;
     --azul-claro: #1b263bff;
     --azul: #415a77ff;
     --metalico: #778da9ff;
 
---titulo: "Roboto Condensed", sans-serif;
---texto: "Chewy", system-ui;
+    --titulo: "Roboto Condensed", sans-serif;
+    --texto: "Chewy", system-ui;
 
 }
-body{
+
+body {
     background-color: var(--metalico);
     font-family: var(--texto);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    margin-top: 20px;
+    max-width: 90%;
+    text-align: center;
+}
+button:{
+    font-family: var(--titulo);
+    background-color:var(--azul-claro)
+    color: var(--metalico)
+
 }
